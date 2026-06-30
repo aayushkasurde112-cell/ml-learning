@@ -14,7 +14,8 @@
 
 <!-- Add your notes here -->
 - Regularization (Ridge, LASSO, Elastic Net)
-In L1 & L2 regularizer, a regularization term is added to loss function, in order to penalize learned parameters to avoid overfitting. There are L1 regularizer, L2 regularizer and a combined regularizer:
+
+In L1 & L2 regularizer, a regularization term is added to loss function, in order to penalize learned parameters to avoid overfitting. There are L1 regularizer, L2 regularizer and a combined regularizer:  
 
 Ridge regression, i.e. L2 regularizer, adds "squared magnitude" of coefficient as penalty term to the loss function.
 Lasso Regression (Least Absolute Shrinkage and Selection Operator), i.e. L1 regularizar, adds "absolute value of magnitude" of coefficient as penalty term to the loss function.
