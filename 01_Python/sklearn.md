@@ -34,7 +34,7 @@ print(f"Test Accuracy: {accuracy:.4f}")
 ## Notes
 
 <!-- Add your notes here -->
-Recursive feature elemination
+Recursive Feature Elemination
 
 ```python
 # Initialize the RFE selector with your base estimator (e.g., est)
