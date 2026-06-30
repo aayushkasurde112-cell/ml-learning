@@ -25,7 +25,7 @@ X_test_scaled = scaler.transform(X_test)
 model = LogisticRegression()
 model.fit(X_train_scaled, y_train)
 
-# 4. Evaluate the accuracy score on the test set
+# 4. Evaluate the accuracy score on the test sets
 accuracy = model.score(X_test_scaled, y_test)
 print(f"Test Accuracy: {accuracy:.4f}")
 
