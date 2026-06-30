@@ -21,13 +21,12 @@ ml-knowledge-base/
 │   └── probability.md
 │
 ├── 03_Machine_Learning/
-│   ├── regression.md
-│   ├── classification.md
-│   ├── decision_trees.md
-│   ├── random_forest.md
-│   ├── svm.md
-│   ├── clustering.md
-│   └── pca.md
+│   ├── 01_exploratory_data_analysis_for_machine_learning.md
+│   ├── 02_supervised_machine_learning_regression.md
+│   ├── 03_supervised_machine_learning_classification.md
+│   ├── 04_unsupervised_machine_learning.md
+│   ├── 05_deep_learning_and_reinforcement_learning.md
+│   └── 06_machine_learning_capstone.md
 │
 ├── 04_IBM_Labs/
 │   ├── lab_01.md
