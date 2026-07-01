@@ -27,7 +27,7 @@ plt.show()
 |---|---|---|
 | `%matplotlib inline` | Jupyter magic command to render plots inline | `%matplotlib inline` |
 | `plt.plot(x, y, ...)` | Plots a line or scatter (with `ls='', marker='o'`) | `plt.plot(X_data, Y_data, marker='o', ls='')` |
-| `plt.legend()` | Displays the legend on the plot | `plt.legend()` |
+| `plt.legend()` | Displays the legend on the plot(basically the index box) | `plt.legend()` |
 | `plt.gca()` | Gets the current Axes object | `ax = plt.gca()` |
 | `ax.set(xlabel=, ylabel=, title=, xlim=, ylim=)` | Sets multiple Axes properties in one call | `ax.set(xlabel='x data', ylabel='y data')` |
 | `data.set_index('x')['y'].plot(ls='', marker='o', label='data')` | Sets `'x'` column as index, selects `'y'` column, then plots it as a scatter plot — `ls=''` removes the line, `marker='o'` adds circle markers, `label='data'` sets the legend label | `x = data.set_index('x')['y'].plot(ls='', marker='o', label='data')` |
