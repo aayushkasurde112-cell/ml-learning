@@ -30,6 +30,7 @@ plt.show()
 | `plt.legend()` | Displays the legend on the plot | `plt.legend()` |
 | `plt.gca()` | Gets the current Axes object | `ax = plt.gca()` |
 | `ax.set(xlabel=, ylabel=, title=, xlim=, ylim=)` | Sets multiple Axes properties in one call | `ax.set(xlabel='x data', ylabel='y data')` |
+| `data.set_index('x')['y'].plot(ls='', marker='o', label='data')` | Sets `'x'` column as index, selects `'y'` column, then plots it as a scatter plot — `ls=''` removes the line, `marker='o'` adds circle markers, `label='data'` sets the legend label | `x = data.set_index('x')['y'].plot(ls='', marker='o', label='data')` |
 | `plt.figure(figsize=(w,h))` | Creates a new figure with a custom size | `plt.figure(figsize=(6,6))` |
 | `plt.axes()` | Creates/returns an Axes object | `ax = plt.axes()` |
 | `plt.subplots(nrows, ncols, figsize=)` | Creates a grid of subplots | `fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10,5))` |
